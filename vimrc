@@ -454,6 +454,15 @@ let g:ConqueTerm_PromptRegex = '^-->'
 let g:ConqueTerm_TERM = 'xterm'
 
 "-----------------------------------------------------------------------------
+" EasyAlign Settings
+"-----------------------------------------------------------------------------
+" Start interactive EasyAlign in visual mode - Not the docs in upstream, so strange..
+vnoremap <silent> <Enter> :EasyAlign<cr>
+
+" Start interactive EasyAlign with a Vim movement
+nnoremap <silent> <Leader>a :EasyAlign<cr>
+
+"-----------------------------------------------------------------------------
 " Set up the window colors and size
 "-----------------------------------------------------------------------------
 set guifont="Source\\ Code\\ Pro\\ Medium\\ 9"
