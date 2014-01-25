@@ -1,8 +1,7 @@
 "
-" Derek Wyatt's Vim Configuration
+" Carlos s Vim Configuration
 "
-" It's got stuff in it.
-"
+" Based on Derek Wyat config repository
 
 "-----------------------------------------------------------------------------
 " Global Stuff
@@ -24,9 +23,9 @@ filetype plugin on
 filetype indent on
 
 " Tabstops are 4 spaces
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent
 
@@ -166,20 +165,8 @@ set wildignore+=*.o,*.class,*.git,*.svn
 " sucks.  Setting it to double makes it awesome.
 "set ambiwidth=double
 
-" OK, so I'm gonna remove the VIM safety net for a while and see if kicks my ass
-"set nobackup
-"set nowritebackup
-"set noswapfile
-
-" dictionary for english words
-" I don't actually use this much at all and it makes my life difficult in general
-"set dictionary=$VIM/words.txt
-
 " Let the syntax highlighting for Java files allow cpp keywords
 let java_allow_cpp_keywords = 1
-
-" I don't want to have the default keymappings for my scala plugin evaluated
-"let g:scala_use_default_keymappings = 0
 
 " System default for mappings is now the "," character
 let mapleader = ","
