@@ -160,6 +160,11 @@ set number
 " Types of files to ignore when autocompleting things
 set wildignore+=*.o,*.class,*.git,*.svn
 
+" OK, so I'm gonna remove the VIM safety net for a while and see if kicks my ass
+set nobackup
+set nowritebackup
+set noswapfile
+
 " Various characters are "wider" than normal fixed width characters, but the
 " default setting of ambiwidth (single) squeezes them into "normal" width, which
 " sucks.  Setting it to double makes it awesome.
