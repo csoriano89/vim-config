@@ -222,11 +222,11 @@ cnoremap <ESC><C-F> <S-Right>
 cnoremap <ESC><C-H> <C-W>
 
 " Maps to make handling windows a bit easier
-"noremap <silent> ,h :wincmd h<CR>
-"noremap <silent> ,j :wincmd j<CR>
-"noremap <silent> ,k :wincmd k<CR>
-"noremap <silent> ,l :wincmd l<CR>
-"noremap <silent> ,sb :wincmd p<CR>
+noremap <silent> ,h :wincmd h<CR>
+noremap <silent> ,j :wincmd j<CR>
+noremap <silent> ,k :wincmd k<CR>
+noremap <silent> ,l :wincmd l<CR>
+noremap <silent> ,sb :wincmd p<CR>
 noremap <silent> <C-F9>  :vertical resize -10<CR>
 noremap <silent> <C-F10> :resize +10<CR>
 noremap <silent> <C-F11> :resize -10<CR>
@@ -242,6 +242,7 @@ noremap <silent> ,ml <C-W>L
 noremap <silent> ,mk <C-W>K
 noremap <silent> ,mh <C-W>H
 noremap <silent> ,mj <C-W>J
+noremap <silent> ,p :b#
 noremap <silent> <C-7> <C-W>>
 noremap <silent> <C-8> <C-W>+
 noremap <silent> <C-9> <C-W>+
